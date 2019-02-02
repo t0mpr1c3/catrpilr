@@ -69,7 +69,7 @@ Line 9.
 **h.** high score  
 **i.** temporary variable  
 **j.** temporary variable  
-**k.** constant 31 = VDU code to set cartesian coordinates
+**k.** constant 31 = VDU code to set cartesian coordinates  
 **m.** constant 42 = maximum length of caterpillar / ASCII `*`  
 **n.** number of lives left  
 **o.** constant 13 = x-offset of box  
