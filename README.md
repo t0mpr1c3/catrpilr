@@ -56,13 +56,13 @@ Line 9.
 
 ## Variables:
 
-**L.** constant 467 = x-location of left side of box  
-**R.** constant 851 = x-location of right side of box  
+**L.** constant 435 = x-location of left side of box  
+**R.** constant 819 = x-location of right side of box  
 **T.** constant 1011 = y-location of top side of box  
 **B.** constant 627 = y-location of bottom side of box  
 **a.** x location of target / value 1305 = VDU code to draw line  
 **b.** y location of target  
-**c.** constant = 17 VDU code to set colour  
+**c.** constant 273 = VDU code to set colour red  
 **d.** direction of next move: 2=up, -2=down, 1=left, -1=right  
 **f.** flag variable  
 **g.** game score  
@@ -70,6 +70,7 @@ Line 9.
 **i.** temporary variable  
 **j.** temporary variable  
 **k.** constant 31 = VDU code to set cartesian coordinates
+**m.** constant 42 = maximum length of caterpillar / ASCII `*`
 **n.** number of lives left  
 **o.** constant 13 = x-offset of box  
 **p.** pixel colour at next location  
@@ -78,7 +79,7 @@ Line 9.
 **t.** index of tail position  
 **u.** index of current position of head  
 **v.** index of next position of head  
-**w.** wait duration / maximum length of caterpillar / ASCII '*'  
+**w.** wait duration  
 **x.** address of vector of x-locations  
 **y.** address of vector of y-locations  
 **z.** constant 32 = ASCII space / width of 1 character  
