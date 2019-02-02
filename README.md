@@ -56,12 +56,11 @@ Line 9.
 
 ## Variables:
 
-**L.** constant 435 = x-location of left side of box   
-**T.** constant 1011 = y-location of top side of box    
 **a.** x location of target / value 1305 = VDU code to draw line  
 **b.** y location of target  
-**c.** constant 273 = VDU code to set colour red  
-**d.** direction of next move: 2=up, -2=down, 1=left, -1=right  
+**c.** constant 435 = x-location of left side of box   
+**d.** constant 1011 = y-location of top side of box    
+**e.** direction of next move: 2=up, -2=down, 1=left, -1=right  
 **f.** flag variable  
 **g.** game score  
 **h.** high score  
