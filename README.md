@@ -8,10 +8,10 @@ snake game in 10 lines of BASIC
 
 ## How to play
 
-**A** up
-**Z** down
-**<** left
-**>** right
+**A** up  
+**Z** down  
+**<** left  
+**>** right  
 
 ## BASIC code:
 
