@@ -53,9 +53,9 @@ Line 9.
 ## Variables:
 
 **L.** constant 467 = x-location of left side of box  
-**R.** constant 627 = x-location of right side of box  
+**R.** constant 851 = x-location of right side of box  
 **T.** constant 1011 = y-location of top side of box  
-**B.** constant 851 = y-location of bottom side of box  
+**B.** constant 627 = y-location of bottom side of box  
 **a.** x location of target / value 1305 = VDU code to draw line  
 **b.** y location of target  
 **c.** constant = 17 VDU code to set colour  
