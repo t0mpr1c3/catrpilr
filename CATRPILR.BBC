@@ -1,0 +1,10 @@
+0V.278;23;8202;0;0;0;787;6;0;:g=0:h=0:k=31:o=13:u=1:w=0:x=&C00:z=32:B=851:T=1011
+1n=4:p=0:s=9:w=3*w:f=g>h:h=h-f*(g-h):g=0::L=467:R=627:IFh P.TAB(17,6)"H!_5[*r="
+2n=n-1:V.k,o+n,o,z,k,o+x?u,y?u,120*p:SO.0,-9*p,7,9:TI.=0:REP.U.TI.>2*w:IFn=0TH.1
+3a=1305:V.12,25,4,L;T;a;R;T;a;R;B;a;L;B;a;L;T;:d=2:p=0:r=0:w=42:y=x+w:?x=6:?y=6
+4F.i=0TOp:SO.0,-4*p,i,1:N.:REP.:b=a:a=RND(11):U.PO.L+z*a,T-z*b)=0:g=g+5*p
+5c=17:V.k,o+a,b,36,k,o,o,w,w,w,k,o+n,o,z,z,529;k,c,o:P.g:s=s-p/2*(s<41):TI.=0
+6v=(u+1)MODw:REP.:i=INKEY-104-INKEY-103:j=INKEY-98-INKEY-66:IFi d=i EL.IFj d=2*j
+7U.TI.>5A.TI.>25-r:TI.=0:i=ABSd:j=u A.1:SO.0,-5,j+1,1:t=(v-s+w)MODw:f=r=s
+8s=(s-f)MODw:x?v=x?u+d*(i=1):y?v=y?u+d/2*(i=2):p=PO.L+z*x?v,T-z*y?h):p=p+(p=3)
+9V.c,j+1,k,o+x?u,y?u,64,c;k,o+x?t,y?t,z*f,c,1,k,o+x?v,y?v,120-z*j:u=v:G.(6-2*p)     
