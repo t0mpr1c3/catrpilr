@@ -73,7 +73,7 @@ Line 9.
 **k.** constant 31 = VDU code to set cartesian coordinates  
 **m.** constant 42 = maximum length of caterpillar / ASCII `*`  
 **n.** number of lives left  
-**p.** pixel colour at next location  
+**p.** derived from pixel colour at next location: 1 = blue/yellow, 2 = red, 3 = black 
 **q.** constant 13 = x-offset of box  
 **r.** real length of caterpillar  
 **s.** screen length of caterpillar  
