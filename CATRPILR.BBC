@@ -7,4 +7,4 @@
 6v=(u+1)MODw:REP.:i=INKEY-104-INKEY-103:j=INKEY-98-INKEY-66:IFi d=i EL.IFj d=2*j
 7U.TI.>5A.TI.>25-r:TI.=0:i=ABSd:j=u A.1:SO.0,-5,j+1,1:t=(v-s+w)MODw:f=r=s:c=17
 8s=(s-f)MODw:x?v=x?u+d*(i=1):y?v=y?u+d/2*(i=2):p=PO.L+z*x?v,T-z*y?h):p=p+(p=3)
-9V.c,j+1,k,o+x?u,y?u,64,c;k,o+x?t,y?t,z*f,c,1,k,o+x?v,y?v,120-z*j:u=v:G.(6-2*p)
+9V.c,j+1,k,o+x?u,y?u,64,17;k,o+x?t,y?t,z*f,273;k,o+x?v,y?v,120-z*j:u=v:G.(6-2*p)
