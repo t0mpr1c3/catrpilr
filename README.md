@@ -10,7 +10,7 @@ growing bugs gotta eat
 
 Upload the virtual disk `CAT80` into the emulator, and type `CHAIN "CAT80"`.
 
-###Controls:
+### Controls:
 
   **A** up  
   **Z** down  
