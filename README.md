@@ -56,10 +56,8 @@ Line 9.
 
 ## Variables:
 
-**L.** constant 435 = x-location of left side of box  
-**R.** constant 819 = x-location of right side of box  
-**T.** constant 1011 = y-location of top side of box  
-**B.** constant 627 = y-location of bottom side of box  
+**L.** constant 435 = x-location of left side of box   
+**T.** constant 1011 = y-location of top side of box    
 **a.** x location of target / value 1305 = VDU code to draw line  
 **b.** y location of target  
 **c.** constant 273 = VDU code to set colour red  
@@ -79,7 +77,7 @@ Line 9.
 **t.** index of tail position  
 **u.** index of current position of head  
 **v.** index of next position of head  
-**w.** wait duration  
+**w.** wait duration / value 120 = ASCII `x`
 **x.** address of vector of x-locations  
 **y.** address of vector of y-locations  
 **z.** constant 32 = ASCII space / width of 1 character  
