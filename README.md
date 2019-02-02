@@ -16,7 +16,7 @@ growing bugs gotta eat
 ## Code summary:
 
 Line 0.
-*	Initialize screen and variables.
+*	Initialize screen and variables
 *	Run only once
 
 Line 1.
@@ -24,20 +24,24 @@ Line 1.
 *	Start new game
 
 Line 2.
-*	Lose life, make death sound, pause
+*	Lose life, make death sound
+* Pause before next round
 
 Line 3.
 *	Draw game box
 *	Set up variables for next round
 
 Line 4.
-*	Make score sound, randomly select location of target
+*	Make score sound
+* Randomly select location of target
 
 Line 5.
-*	Update score and number of lives, print status bar
+*	Update score and number of lives
+* Print status bar
 
 Line 6.
-*	Get keyboard input 'A' up, 'Z' down, '<' left, '>' right
+*	Get keyboard input
+* 'A' up, 'Z' down, '<' left, '>' right
 
 Line 7.
 *	Make move sound
@@ -47,7 +51,7 @@ Line 8.
 *	Get pixel colour at next location 
 
 Line 9. 
-*	Print head and neck,blank out vacated tail location
+*	Print head and neck, blank out vacated tail location
 *	Depending on pixel colour GOTO line 2 (yellow/blue=dead), 4 (red=target), 6 (empty cell)
 
 ## Variables:
