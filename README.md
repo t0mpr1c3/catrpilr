@@ -8,10 +8,13 @@ growing bugs gotta eat
 
 ## How to play
 
-**A** up  
-**Z** down  
-**<** left  
-**>** right  
+Upload the virtual disk `CAT80` into the emulator, and type `CHAIN "CAT80"`.
+
+###Controls:
+  **A** up  
+  **Z** down  
+  **<** left  
+  **>** right  
 
 ## Code summary:
 
