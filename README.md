@@ -1,5 +1,5 @@
 # catrpilr
-snake game in 10 lines of BASIC
+growing bugs gotta eat
 
 ## Description
 
