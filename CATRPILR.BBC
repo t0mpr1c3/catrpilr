@@ -3,7 +3,7 @@
 2n=n-1:V.k,o+n,o,z,k,o+x?u,y?u,120*p:SO.0,-9*p,7,9:TI.=0:REP.U.TI.>2*w:IFn=0TH.1
 3a=1305:V.12,25,4,L;T;a;R;T;a;R;B;a;L;B;a;L;T;:d=2:p=0:s=0:w=42:y=x+w:?x=6:?y=6
 4F.i=0TOp:SO.0,-4*p,i,1:N.:REP.:b=a:a=RND(11):U.PO.L+z*a,T-z*b)=0:g=g+5*p
-5c=17:V.k,o+a,b,36,k,o,o,w,w,w,k,o+n,o,z,z,529;k,c,o:P.g:s=s-p/2*(s<41):TI.=0
+5c=17:V.k,o+a,b,36,k,o,o,w,w,w,k,o+n,o,z,z,529;k,c,o:P.g:r=r-p/2*(r<41):TI.=0
 6v=(u+1)MODw:REP.:i=INKEY-104-INKEY-103:j=INKEY-98-INKEY-66:IFi d=i EL.IFj d=2*j
 7U.TI.>5A.TI.>25-r:TI.=0:i=ABSd:j=u A.1:SO.0,-5,j+1,1:t=(v-s+w)MODw:f=r=s
 8s=(s-f)MODw:x?v=x?u+d*(i=1):y?v=y?u+d/2*(i=2):p=PO.L+z*x?v,T-z*y?h):p=p+(p=3)
