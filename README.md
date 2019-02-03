@@ -3,7 +3,7 @@ Growing bugs gotta eat.
 
 ## Description
 
-* Simple snake game written for [BBC micro model B emulator](https://bbc.godbolt.org)
+* Simple snake game written for a [BBC micro model B emulator](https://bbc.godbolt.org)
 * Entry for [**2019 BASIC 10 liner contest**](http://gkanold.wixsite.com/homeputerium/kopie-von-basic-10liners-2018) in category **PUR-80**
 
 ## Features
@@ -12,9 +12,11 @@ Growing bugs gotta eat.
 * Bleeps! Power pills! High score!  
 * _Special bonus screen memory glitches!_
 
+I don't know what causes some of the the on-screen garbage: it might be something to do with how the emulator is implemented.
+
 ## How to play
 
-Download CAT80.zip, either from the [github repo](https://github.com/t0mpr1c3/catrpilr/raw/master/CAT80.zip) or [Google Drive](https://drive.google.com/open?id=15PFjJfnuuaaakjoFXNT2xX38sfp5RlrV) and extract the virtual disk `CAT80`. Upload the file into the emulator, and type `CHAIN "CAT80"`.
+Download CAT80.zip, either from the [github repo](https://github.com/t0mpr1c3/catrpilr/raw/master/CAT80.zip) or [Google Drive](https://drive.google.com/open?id=15PFjJfnuuaaakjoFXNT2xX38sfp5RlrV) and extract the virtual disk `CAT80.ssd`. Upload the file into the emulator, and type `CHAIN "CAT80"`.
 
 #### Controls:
 
@@ -73,10 +75,9 @@ Line 9.
 ## Variables:
 
 **a.** x location of target / value 281 = VDU code for PLOT 1,x,y  
-**b.** y location of target / value 384 = length and width of box in pixels 
-**c.** constant 435 = x-location of left side of box   
-**d.** constant 1011 = y-location of top side of box    
-**e.** direction of next move: 2=up, -2=down, 1=left, -1=right  
+**b.** y location of target / value 384 = length and width of box in pixels
+**c.** colour variable derived from pixel colour at next location: 1 = blue/yellow, 2 = red, 3 = black   
+**d.** constant 32 = ASCII space / width of 1 character  
 **f.** temporary flag variable  
 **g.** game score  
 **h.** high score  
@@ -85,20 +86,19 @@ Line 9.
 **k.** constant 31 = VDU code to set cartesian coordinates  
 **m.** constant 42 = maximum length of caterpillar / ASCII `*`  
 **n.** number of lives left  
-**p.** derived from pixel colour at next location: 1 = blue/yellow, 2 = red, 3 = black  
-**q.** flag variable: 0 = this is normal food, -1 = this food is a power pill  
-**Q.** flag variable: 1 = normal speed, 2 = whoosh! you just ate a power pill  
+**p.** flag variable: 0 = this is normal food, -1 = this food is a power pill  
+**q.** flag variable: 1 = normal speed, 2 = whoosh! you just ate a power pill  
 **r.** real length of caterpillar  
 **s.** screen length of caterpillar  
-**S.** constant 32 = ASCII space / width of 1 character  
 **t.** index of tail position  
 **u.** index of current position of head  
 **v.** index of next position of head  
 **w.** wait duration / value 120 = ASCII `x`  
 **x.** address of vector of x-locations  
 **y.** address of vector of y-locations  
-**z.** constant 13 = x-offset of box  
-**Z.** constant 3341. VDU 3341; = VDU 13,13  
+**z.** constant 13 = y-location of status bar  
+**X.** direction of next move: 1=left, -1=right  
+**Y.** 1=up, -1=down 
 
 ## Cheats
 
