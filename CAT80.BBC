@@ -1,5 +1,5 @@
 0V.278;23;8202;0;0;0;787;6;0;:d=1011:g=0:h=0:k=31:m=42:S=32:u=0:w=0:x=&C00:y=x+m
-1c=435:f=g>h:g=0:n=4:p=0:r=5:w=3*w:z=13:Z=3341:C.1:IFf h=g:P.TAB(16,6)"h!_$<*R{"
+1c=435:f=g>h:g=0:n=4:p=0:r=5:w=3*w:z=13:Z=3341:C.1:IFf h=g:P.TAB(15,6)"HI SCORE"
 2n=n-1:V.k,Z+n;S,k,z+x?u,y?u,35*p:SO.0,-9*p,7,9:TI.=0:REP.U.TI.>w:p=0:IFn=0G.1
 3a=281:b=384:V.6412;4,c;d;a;b;0;a;0;-b;a;-b;0;a;0;b;:e=2:q=0:s=1:u=0:?x=6:?y=6
 4F.i=0TOp:SO.0,-4*p,1A.i,1:N.:Q=1-q;q=b=a:REP.:b=a:a=RND(11):U.PO.c+S*a,d-S*b)=0
