@@ -8,7 +8,7 @@ Growing bugs gotta eat.
 
 ## How to play
 
-Download CAT80.zip and extract the virtual disk `CAT80`. Upload the file into the emulator, and type `CHAIN "CAT80"`.
+Download CAT80.zip, either from the [github repo](https://github.com/t0mpr1c3/catrpilr/raw/master/CAT80.zip) or [Google Drive](https://drive.google.com/open?id=1XgbsFhUntzpyacKSSzrNaVTAK8jqTMAw) and extract the virtual disk `CAT80`. Upload the file into the emulator, and type `CHAIN "CAT80"`.
 
 #### Controls:
 
