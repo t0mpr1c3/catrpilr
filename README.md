@@ -66,7 +66,7 @@ Line 9.
 
 ## Variables:
 
-**a.** x location of target / value 281 = VDU code for PLOT 1,x,y 
+**a.** x location of target / value 281 = VDU code for PLOT 1,x,y  
 **b.** y location of target / value 384 = length and width of box in pixels 
 **c.** constant 435 = x-location of left side of box   
 **d.** constant 1011 = y-location of top side of box    
