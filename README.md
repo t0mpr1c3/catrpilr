@@ -1,5 +1,5 @@
 # catrpilr
-growing bugs gotta eat
+Growing bugs gotta eat.
 
 ## Description
 
