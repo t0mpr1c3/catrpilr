@@ -16,6 +16,12 @@ Download CAT80.zip and extract the virtual disk `CAT80`. Upload the file into th
   **Z** down  
   **<** left  
   **>** right  
+  
+#### Tips:
+
+* Move around the caterpillar box eating the tasty red food that helps you grow.  
+* Try not to bite your own tail or crash into the side of the box. That's like, ouch.  
+* Watch out for the power pills! They will make you move extra quick until you eat something else.  
 
 ## Code summary:
 
@@ -65,7 +71,7 @@ Line 9.
 **c.** constant 435 = x-location of left side of box   
 **d.** constant 1011 = y-location of top side of box    
 **e.** direction of next move: 2=up, -2=down, 1=left, -1=right  
-**f.** flag variable  
+**f.** temporary flag variable  
 **g.** game score  
 **h.** high score  
 **i.** temporary variable  
@@ -74,19 +80,22 @@ Line 9.
 **m.** constant 42 = maximum length of caterpillar / ASCII `*`  
 **n.** number of lives left  
 **p.** derived from pixel colour at next location: 1 = blue/yellow, 2 = red, 3 = black  
-**q.** constant 13 = x-offset of box  
+**q.** flag variable: 0 = this is normal food, -1 = this food is a power pill  
+**Q.** flag variable: 1 = normal speed, 2 = whoosh! you just ate a power pill  
 **r.** real length of caterpillar  
 **s.** screen length of caterpillar  
+**S.** constant 32 = ASCII space / width of 1 character  
 **t.** index of tail position  
 **u.** index of current position of head  
 **v.** index of next position of head  
 **w.** wait duration / value 120 = ASCII `x`  
 **x.** address of vector of x-locations  
 **y.** address of vector of y-locations  
-**z.** constant 32 = ASCII space / width of 1 character  
+**z.** constant 13 = x-offset of box  
+**Z.** constant 3341. VDU 3341; = VDU 13,13  
 
 ## Cheats
 
 * **Infinite lives:** Remove `n=n-1:` at the beginning of line 1  
-* **Longer caterpillar:** Change `r=4` in line 1 to `r=9`  
-* **Faster game:** Change the beginning of line 7 to `U.TI.>5A.TI.>25-r`
+* **Longer caterpillar:** Change `r=5` in line 1 to `r=9`  
+* **Faster game:** Change the beginning of line 7 from `U.TI.>5A.TI.>50-r` to, say, `U.TI.>5A.TI.>35-r`
