@@ -60,7 +60,7 @@ Line 9.
 
 ## Variables:
 
-**a.** x location of target / value 1305 = VDU code to draw line  
+**a.** x location of target / value 281 = VDU code for PLOT 1,x,y 
 **b.** y location of target  
 **c.** constant 435 = x-location of left side of box   
 **d.** constant 1011 = y-location of top side of box    
