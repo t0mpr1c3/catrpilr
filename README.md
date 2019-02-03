@@ -84,3 +84,9 @@ Line 9.
 **x.** address of vector of x-locations  
 **y.** address of vector of y-locations  
 **z.** constant 32 = ASCII space / width of 1 character  
+
+## Cheats
+
+* **Infinite lives:** Remove `n=n-1:` at the beginning of line 1  
+* **Longer caterpillar:** Change `r=4` in line 1 to `r=9`  
+* **Faster game:** Change the beginning of line 7 to `U.TI.>5A.TI.>25-r`
