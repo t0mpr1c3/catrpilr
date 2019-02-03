@@ -1,10 +1,10 @@
-0V.278;23;8202;0;0;0;787;6;0;:g=0:h=0:k=31:m=42:q=13:u=0:w=0:x=&C00:y=x+m:z=32
-1f=g>h:h=h-f*(g-h):g=0:n=4:p=0:r=4:w=3*w:c=435:d=1011:IFf P.TAB(16,6)"h!_$<*R{"
-2n=n-1:V.k,q+n,q,z,k,q+x?u,y?u,35*p:SO.0,-9*p,7,9:TI.=0:REP.U.TI.>w:IFn=0G.1
-3a=281:i=384:V.6412;4,c;d;a;i;0;a;0;-i;a;-i;0;a;0;i;:e=2:p=0:s=0:u=0:?x=6:?y=6
-4F.i=0TOp:SO.0,-4*p,1A.i,1:N.:REP.:b=a:a=RND(11):U.PO.c+z*a,d-z*b)=0:g=g+5*p
-5V.273;k,q+a,b,36,k,q,q,m,m,m,k,q+n,q,z,z,529;k,16,q:P.g:r=r-p/2*(r<41):TI.=0
+0V.278;23;8202;0;0;0;787;6;0;:d=1011:g=0:h=0:k=31:m=42:S=32:u=0:w=0:x=&C00:y=x+m
+1c=435:f=g>h:g=0:n=4:p=0:r=5:w=3*w:z=13:Z=3341:C.1:IFf h=g:P.TAB(16,6)"h!_$<*R{"
+2n=n-1:V.k,Z+n;S,k,z+x?u,y?u,35*p:SO.0,-9*p,7,9:TI.=0:REP.U.TI.>w:p=0:IFn=0G.1
+3a=281:b=384:V.6412;4,c;d;a;b;0;a;0;-b;a;-b;0;a;0;b;:e=2:q=0:s=1:u=0:?x=6:?y=6
+4F.i=0TOp:SO.0,-4*p,1A.i,1:N.:Q=1-q;q=b=a:REP.:b=a:a=RND(11):U.PO.c+S*a,d-S*b)=0
+5g=g+p*5^Q:r=r-p/2*(r<m):V.k,z+a,b,36-q,k,Z;m,m,m,k,Z+n;S,S,k,Z+3;:C.2:P.g:TI.=0
 6v=(u+1)MODm:REP.:i=INKEY-104-INKEY-103:j=INKEY-98-INKEY-66:IFi e=i EL.IFj e=2*j
-7U.TI.>5A.TI.>40-r:TI.=0:i=ABSe:j=1A.u:SO.0,-3,j+1,1:x?v=x?u+e*(i=1):w=120
-8t=(u-r+m)MODm:f=r=s:s=s+f+1:y?v=y?u+e/2*(i=2):p=3-PO.c+z*x?v,d-z*y?v):p=p-(p=0)
-9V.17,j+2,k,q+x?u,y?u,64,17;k,q+x?t,y?t,-f*z,273;k,q+x?v,y?v,w-z*j:u=v:G.(2*p)
+7U.TI.>5A.TI.>50-r-10*Q:TI.=0:i=ABSe:j=1A.u:SO.0,-3,j+1,1:x?v=x?u+e*(i=1):w=120
+8t=(v-r+m)MODm:f=r=s:s=s+f+1:y?v=y?u+e/2*(i=2):p=3-PO.c+S*x?v,d-S*y?v):p=p-(p=0)
+9V.17,j+2,k,z+x?u,y?u,64,17;k,z+x?t,y?t,-f*S,273;k,z+x?v,y?v,w-S*j:u=v:G.(2*p)
