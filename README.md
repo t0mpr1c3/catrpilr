@@ -6,6 +6,12 @@ Growing bugs gotta eat.
 * Simple snake game written for [BBC micro model B emulator](https://bbc.godbolt.org)
 * Entry for [**2019 BASIC 10 liner contest**](http://gkanold.wixsite.com/homeputerium/kopie-von-basic-10liners-2018) in category **PUR-80**
 
+## Features
+
+* Fast, playable action!  
+* Bleeps! Power pills! High score!  
+* _Special bonus screen memory glitches!_
+
 ## How to play
 
 Download CAT80.zip, either from the [github repo](https://github.com/t0mpr1c3/catrpilr/raw/master/CAT80.zip) or [Google Drive](https://drive.google.com/open?id=15PFjJfnuuaaakjoFXNT2xX38sfp5RlrV) and extract the virtual disk `CAT80`. Upload the file into the emulator, and type `CHAIN "CAT80"`.
