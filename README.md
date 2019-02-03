@@ -80,7 +80,7 @@ Line 9.
 **t.** index of tail position  
 **u.** index of current position of head  
 **v.** index of next position of head  
-**w.** wait duration / value 120 = ASCII `x`
+**w.** wait duration / value 120 = ASCII `x`  
 **x.** address of vector of x-locations  
 **y.** address of vector of y-locations  
 **z.** constant 32 = ASCII space / width of 1 character  
