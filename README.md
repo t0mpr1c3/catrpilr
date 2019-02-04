@@ -18,7 +18,7 @@ I don't know what causes some of the the on-screen garbage: it might be somethin
 
 Download CAT80.zip, either from the [github repo](https://github.com/t0mpr1c3/catrpilr/raw/master/CAT80.zip) or [Google Drive](https://drive.google.com/open?id=15PFjJfnuuaaakjoFXNT2xX38sfp5RlrV) and extract the virtual disk `CAT80.ssd`. Upload the file into the emulator, and type `CHAIN "CAT80"`.
 
-Alternatively, copy the BASIC code and paste into the console of the [BeebEm emulator](https://en.wikipedia.org/wiki/BeebEm) and type `RUN`.
+Alternatively, copy/paste the BASIC code into the console of the [BeebEm emulator](https://en.wikipedia.org/wiki/BeebEm) and type `RUN`.
 
 
 #### Controls:
