@@ -114,4 +114,4 @@ Line 9.
 
 * **Infinite lives:** Remove `n=n-1:` at the beginning of line 2  
 * **Longer caterpillar:** Change `r=5` in line 1 to `r=10` or some other value  
-* **Faster game:** Change the inequality in line 7 from `T>U+40-r-10*q` to, say, `T>U+30-r-10*q`
+* **Faster game:** Change the inequality in line 7 from `T>U+40-r+10*q` to, say, `T>U+30-r+10*q`
