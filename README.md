@@ -116,6 +116,8 @@ Plus, as a side effect of storing the caterpillar segment locations in memory ad
 
 ## Cheats
 
+Personally I am completely useless at gaming and have to cheat to make it enjoyable in any way. I have listed these hacks at the bottom to make the rest of you read to the end of the document.
+
 * *Infinite lives:* Remove `n=n-1:` at the beginning of line 2  
 * *Longer caterpillar:* Change `r=5` in line 1 to `r=10` or some other value  
 * *Faster game:* Change the inequality in line 7 from `T>U+40-r+10*q` to, say, `T>U+30-r+10*q`
