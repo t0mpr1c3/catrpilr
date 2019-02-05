@@ -83,7 +83,7 @@ Line 9.
 ## Variables:
 
 **a.** x location of target / value 18 = VDU code for GCOL   
-**b.** y location of target / value 13 = y-location of status bar
+**b.** y location of target / value 13 = y-location of status bar  
 **c.** colour variable indicating pixel colour at next location: -1 = outside box, 0 = black, 1 = red, 2 = yellow, 3 = blue  
 **d.** constant 32 = ASCII space / width of 1 character    
 **f.** temporary flag variable  
@@ -102,7 +102,7 @@ Line 9.
 **u.** index of current position of head  
 **v.** index of next position of head  
 **w.** wait duration of 1.2 seconds between lives / value 120 = ASCII `x`  
-**x.** address of vector of x-locations / value 1028 = 10.28 seconds duration of power pill effect 
+**x.** address of vector of x-locations / value 1028 = 10.28 seconds duration of power pill effect  
 **y.** address of vector of y-locations   
 **z.** constant 380 = x/y location of top left corner of box / 3.8 second delay after showing hiscore message  
 **T.** most recent value of TIME (in units of 0.01 second)  
