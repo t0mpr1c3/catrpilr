@@ -3,7 +3,7 @@ Growing bugs gotta eat.
 
 ## Description
 
-* Simple snake game written for the javascript BBC micro model B emulator, [jsbeeb](https://bbc.godbolt.org/)
+* Simple snake game written for the javascript BBC micro model B emulator, [jsbeeb](https://bbc.godbolt.org/).
 * Entry for [**2019 BASIC 10 liner contest**](http://gkanold.wixsite.com/homeputerium/kopie-von-basic-10liners-2018) in category **PUR-80**
 
 ## Features
