@@ -120,7 +120,7 @@ Plus, as a side effect of storing the caterpillar segment locations in memory ad
 
 ### Cheats
 
-Personally I am completely useless at gaming and have to cheat to make it enjoyable in any way. I have listed these hacks at the bottom to make the rest of you read to the end of the document.
+Personally I am completely useless at gaming and have to cheat to make it enjoyable in any way. I have listed these hacks at the bottom as a pathetic attempt to register my disapproval of those who cheat merely for fun and not as a matter of necessity, by making them read right to the very end.
 
 * *Infinite lives:* Remove `n=n-1:` at the beginning of line 2  
 * *Longer caterpillar:* Change `r=5` in line 1 to `r=10` or some other value  
