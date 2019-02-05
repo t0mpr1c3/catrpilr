@@ -82,7 +82,7 @@ Alternatively, copy/paste the BASIC code into the console of *BeebEm* and type `
 
 ## Variables:
 
-I'm chuffed as a badger that the although the source code is only 807 bytes -- including line numbers and newline characters -- it include so many variables that I went through almost the entire alphabet. (*o* and *l* look too much like numerals, and the variable name *e* has been retired to comemmorate the late [Bob Holness](https://www.youtube.com/watch?v=9A89qtdOsnw).) 
+I'm chuffed as a badger that the although the source code is only 807 bytes - including line numbers and newline characters - it contains so many variables that I went through almost the entire alphabet. (*o* and *l* look too much like numerals, and the variable name *e* has been retired to comemmorate the late [Bob Holness](https://www.youtube.com/watch?v=9A89qtdOsnw).) 
 
 *a.* x location of target / value 18 = VDU code for GCOL   
 *b.* y location of target / value 13 = y-location of status bar  
