@@ -1,7 +1,7 @@
 # catrpilr
 Growing bugs gotta eat.
 
-## Description
+### Purpose
 
 * This is a simple snake game written for the javascript BBC micro model B emulator, [jsbeeb](https://bbc.godbolt.org/). I tried to convince my kids that it was a completely original caterpillar game and nothing to do with snakes, but they weren't having any of it.
 
@@ -23,20 +23,20 @@ Download CAT80.zip from the [github repo](https://github.com/t0mpr1c3/catrpilr/r
 
 Alternatively, copy/paste the BASIC code into the console of *BeebEm* and type `RUN`.
 
-#### Controls:
+#### Controls
 
   *A* up  
   *Z* down  
   *<* left  
   *>* right  
   
-#### Tips:
+#### Tips
 
 * Move around the caterpillar box eating the tasty red food that helps you grow.  
 * Try not to bite your own tail or crash into the side of the box. That's like, ouch.  
 * Look out for the power pills! For 10 seconds you will move extra quick, and score more points for all the food you eat.
 
-### Code summary:
+### Code summary
 
 There are lots of abbreviations and little tricks to cram in more functionality, which make the code practically unreadable. Here is a little guide if you have an urge to make sense of it all:
 
@@ -82,7 +82,7 @@ There are lots of abbreviations and little tricks to cram in more functionality,
 *	Print head and neck, blank out vacated tail location
 *	Depending on pixel colour GOTO line 2 (yellow/blue/outside box=dead), 4 (red=target), 6 (black=empty cell)
 
-### Variables:
+### Variables
 
 I'm chuffed as a badger that the although the source code is only 807 bytes - including line numbers and newline characters - it contains so many variables that I went through almost the entire alphabet. (*o* and *l* look too much like numerals, and the variable name *e* has been retired to comemmorate the late [Bob Holness](https://www.youtube.com/watch?v=9A89qtdOsnw).) Even so, several of the variables are re-used to make the code shorter:
 
