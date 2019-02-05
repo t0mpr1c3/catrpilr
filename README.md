@@ -110,6 +110,8 @@ Line 9.
 **X.** direction of next move: 1=left, -1=right  
 **Y.** direction of next move: 1=up, -1=down 
 
+Plus, as a side effect of storing the caterpillar segment locations in memory addresses starting at &404, the program stomps all over whatever values might have been in the integer variables A% through U%. (In an earlier version of the code, **x** took the value of &400 rather than &400. I discovered that trashing @% caused unpredictable changes in number formatting when printing the score.) 
+
 ## Cheats
 
 * **Infinite lives:** Remove `n=n-1:` at the beginning of line 2  
