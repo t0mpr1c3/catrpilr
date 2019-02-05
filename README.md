@@ -9,7 +9,7 @@ Growing bugs gotta eat.
 ## Features
 
 * Fast, playable action!  
-* Bleeps! Power pills! High score!  
+* Bleeps! Flashing lights! High score!  
 * _Special bonus screen memory glitches!_
 
 I don't know what causes some of the the on-screen garbage: it might be something to do with how the emulator is implemented.
