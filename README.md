@@ -32,7 +32,7 @@ Alternatively, copy/paste the BASIC code into the console of the [BeebEm emulato
 
 * Move around the caterpillar box eating the tasty red food that helps you grow.  
 * Try not to bite your own tail or crash into the side of the box. That's like, ouch.  
-* Watch out for the power pills! They will make you move extra quick until you eat something else.  
+* Look out for the power pills! For 10 seconds you will move extra quick, and score more points for all the food you eat.
 
 ## Code summary:
 
@@ -46,41 +46,44 @@ Line 1.
 
 Line 2.
 *	Lose life, make death sound
-* Pause before next round
-
-Line 3.
-*	Draw game box
+* Update number of lives in status bar
 *	Set up variables for next round
 
+Line 3.
+* Pause before next round
+*	Draw game box
+
 Line 4.
-*	Make score sound
-* Randomly select location of target
+*	Update score
+*	Make happy sound
 
 Line 5.
-*	Update score and number of lives
-* Print status bar
+* Randomly select location of next target
+* Print score in status bar
 
 Line 6.
 *	Get keyboard input
 * 'A' up, 'Z' down, '<' left, '>' right
 
 Line 7.
+* Repeat keyboard input for the appropriate amount of time
 *	Make move sound
+*	Update location index for head
 
 Line 8.
-*	Update location indices for head and tail
+*	Update location index for tail
 *	Get pixel colour at next location 
 
 Line 9. 
 *	Print head and neck, blank out vacated tail location
-*	Depending on pixel colour GOTO line 2 (yellow/blue=dead), 4 (red=target), 6 (empty cell)
+*	Depending on pixel colour GOTO line 2 (yellow/blue/outside box=dead), 4 (red=target), 6 (black=empty cell)
 
 ## Variables:
 
-**a.** x location of target / value 281 = VDU code for PLOT 1,x,y  
-**b.** y location of target / value 384 = length and width of box in pixels
-**c.** colour variable derived from pixel colour at next location: 1 = blue/yellow, 2 = red, 3 = black   
-**d.** constant 32 = ASCII space / width of 1 character  
+**a.** x location of target / value 18 = VDU code for GCOL   
+**b.** y location of target / value 13 = y-location of status bar
+**c.** colour variable indicating pixel colour at next location: -1 = outside box, 0 = black, 1 = red, 2 = yellow, 3 = blue  
+**d.** constant 32 = ASCII space / width of 1 character    
 **f.** temporary flag variable  
 **g.** game score  
 **h.** high score  
@@ -90,21 +93,23 @@ Line 9.
 **m.** constant 42 = maximum length of caterpillar / ASCII `*`  
 **n.** number of lives left  
 **p.** flag variable: 0 = this is normal food, -1 = this food is a power pill  
-**q.** flag variable: 1 = normal speed, 2 = whoosh! you just ate a power pill  
+**q.** flag variable: 0 = normal speed, -1 = whoosh! you just ate a power pill  
 **r.** real length of caterpillar  
 **s.** screen length of caterpillar  
 **t.** index of tail position  
 **u.** index of current position of head  
 **v.** index of next position of head  
 **w.** wait duration / value 120 = ASCII `x`  
-**x.** address of vector of x-locations  
-**y.** address of vector of y-locations  
-**z.** constant 13 = y-location of status bar  
+**x.** address of vector of x-locations / value 1028 = 10.28 seconds duration of power pill effect 
+**y.** address of vector of y-locations   
+**z.** constant 380 = x/y location of top left corner of box  
+**T.** most recent value of TIME  
+**U.** value of TIME after last move  
 **X.** direction of next move: 1=left, -1=right  
-**Y.** 1=up, -1=down 
+**Y.** direction of next move: 1=up, -1=down 
 
 ## Cheats
 
-* **Infinite lives:** Remove `n=n-1:` at the beginning of line 1  
-* **Longer caterpillar:** Change `r=5` in line 1 to `r=9`  
-* **Faster game:** Change the beginning of line 7 from `U.TI.>5A.TI.>50-r` to, say, `U.TI.>5A.TI.>35-r`
+* **Infinite lives:** Remove `n=n-1:` at the beginning of line 2  
+* **Longer caterpillar:** Change `r=5` in line 1 to `r=10` or some other value  
+* **Faster game:** Change the inequality in line 7 from `T>U+40-r-10*q` to, say, `T>U+30-r-10*q`
