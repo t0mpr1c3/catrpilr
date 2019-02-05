@@ -82,35 +82,35 @@ Line 9.
 
 ## Variables:
 
-**a.** x location of target / value 18 = VDU code for GCOL   
-**b.** y location of target / value 13 = y-location of status bar  
-**c.** colour variable indicating pixel colour at next location: -1 = outside box, 0 = black, 1 = red, 2 = yellow, 3 = blue  
-**d.** constant 32 = ASCII space / width of 1 character    
-**f.** temporary flag variable  
-**g.** game score  
-**h.** high score  
-**i.** temporary variable  
-**j.** temporary variable  
-**k.** constant 31 = VDU code to set cartesian coordinates  
-**m.** constant 42 = maximum length of caterpillar / ASCII `*`  
-**n.** number of lives left  
-**p.** flag variable: 0 = this is normal food, -1 = this food is a power pill  
-**q.** flag variable: 0 = normal speed, -1 = whoosh! you just ate a power pill  
-**r.** real length of caterpillar  
-**s.** screen length of caterpillar  
-**t.** index of tail position  
-**u.** index of current position of head  
-**v.** index of next position of head  
-**w.** wait duration of 1.2 seconds between lives / value 120 = ASCII `x`  
-**x.** address of vector of x-locations / value 1028 = 10.28 seconds duration of power pill effect  
-**y.** address of vector of y-locations   
-**z.** constant 380 = x/y location of top left corner of box / 3.8 second delay after showing hiscore message  
-**T.** most recent value of TIME (in units of 0.01 second)  
-**U.** value of TIME after last move  
-**X.** direction of next move: 1=left, -1=right  
-**Y.** direction of next move: 1=up, -1=down 
+*a.* x location of target / value 18 = VDU code for GCOL   
+*b.* y location of target / value 13 = y-location of status bar  
+*c.* colour variable indicating pixel colour at next location: -1 = outside box, 0 = black, 1 = red, 2 = yellow, 3 = blue  
+*d.* constant 32 = ASCII space / width of 1 character    
+*f.* temporary flag variable  
+*g.* game score  
+*h.* high score  
+*i.* temporary variable  
+*j.* temporary variable  
+*k.* constant 31 = VDU code to set cartesian coordinates  
+*m.* constant 42 = maximum length of caterpillar / ASCII `*`  
+*n.* number of lives left  
+*p.* flag variable: 0 = this is normal food, -1 = this food is a power pill  
+*q.* flag variable: 0 = normal speed, -1 = whoosh! you just ate a power pill  
+*r.* real length of caterpillar  
+*s.* screen length of caterpillar  
+*t.* index of tail position  
+*u.* index of current position of head  
+*v.* index of next position of head  
+*w.* wait duration of 1.2 seconds between lives / value 120 = ASCII `x`  
+*x.* address of vector of x-locations / value 1028 = 10.28 seconds duration of power pill effect  
+*y.* address of vector of y-locations   
+*z.* constant 380 = x/y location of top left corner of box / 3.8 second delay after showing hiscore message  
+*T.* most recent value of TIME (in units of 0.01 second)  
+*U.* value of TIME after last move  
+*X.* direction of next move: 1=left, -1=right  
+*Y.* direction of next move: 1=up, -1=down 
 
-Plus, as a side effect of storing the caterpillar segment locations in memory addresses starting at &404, the program stomps all over whatever values might have been in the integer variables A% through U%. (In an earlier version of the code, **x** took the value of &400 rather than &400. I discovered that trashing @% caused unpredictable changes in number formatting when printing the score.) 
+Plus, as a side effect of storing the caterpillar segment locations in memory addresses starting at &404, the program stomps all over whatever values might have been in the integer variables *A%* through *U%*. (In an earlier version of the code, *x* took the value of &400 rather than &400. I discovered that trashing *@%* caused unpredictable changes in number formatting when printing the score.) 
 
 ## Cheats
 
