@@ -7,7 +7,7 @@ Growing bugs gotta eat.
 
 * It was written as an entry for the [**2019 BASIC 10 liner contest**](http://gkanold.wixsite.com/homeputerium/kopie-von-basic-10liners-2018) in category **PUR-80**. The rules state that none of the lines of code should exceed 80 characters: seven of them reach the limit, and the other three have 79.
 
-* This document contains much that is truthy, but there is one rather obvious lie in it, not including the statement that I can bench press 750 pounds with one arm.
+* This document contains much that is truthy, but as a matter of law I completely disavow any liability for its contents. It may indeed contain one or two rather obvious lies in it notwithstanding the verifiable statement that I can bench press 750 pounds with one arm.
 
 ### Features
 
