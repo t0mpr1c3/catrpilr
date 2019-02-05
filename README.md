@@ -3,7 +3,7 @@ Growing bugs gotta eat.
 
 ## Description
 
-* Simple snake game written for a [BBC micro model B emulator](https://bbc.godbolt.org)
+* Simple snake game written for a [javascript BBC micro model B emulator](https://bbc.godbolt.org/?disc=gd%3A1deD2bWvyanVXvO0OnC1Am9Sm3TIEI3Bi%2FCAT80#)
 * Entry for [**2019 BASIC 10 liner contest**](http://gkanold.wixsite.com/homeputerium/kopie-von-basic-10liners-2018) in category **PUR-80**
 
 ## Features
@@ -16,9 +16,11 @@ I don't know what causes some of the the on-screen garbage: it might be somethin
 
 ## How to play
 
-Download CAT80.zip, either from the [github repo](https://github.com/t0mpr1c3/catrpilr/raw/master/CAT80.zip) or [Google Drive](https://drive.google.com/open?id=15PFjJfnuuaaakjoFXNT2xX38sfp5RlrV) and extract the virtual disk `CAT80.ssd`. Upload the file into the emulator, and type `CHAIN "CAT80"`.
+The virtual disk is available through the emulator from Google drive: simply navigate to [this link](https://bbc.godbolt.org/?disc=gd%3A1deD2bWvyanVXvO0OnC1Am9Sm3TIEI3Bi%2FCAT80#) and type `CHAIN "CAT80"`.
 
-Alternatively, copy/paste the BASIC code into the console of the [BeebEm emulator](https://en.wikipedia.org/wiki/BeebEm) and type `RUN`.
+For offline accecss, download CAT80.zip from the [github repo](https://github.com/t0mpr1c3/catrpilr/raw/master/CAT80.zip) and extract the virtual disk `CAT80.ssd`. Upload the file into an emulator such as [BeebEm](https://en.wikipedia.org/wiki/BeebEm).
+
+Alternatively, copy/paste the BASIC code into the console of the [BeebEm](https://en.wikipedia.org/wiki/BeebEm) and type `RUN`.
 
 
 #### Controls:
