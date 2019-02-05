@@ -25,10 +25,10 @@ Alternatively, copy/paste the BASIC code into the console of *BeebEm* and type `
 
 #### Controls:
 
-  **A** up  
-  **Z** down  
-  **<** left  
-  **>** right  
+  *A* up  
+  *Z* down  
+  *<* left  
+  *>* right  
   
 #### Tips:
 
@@ -38,45 +38,45 @@ Alternatively, copy/paste the BASIC code into the console of *BeebEm* and type `
 
 ## Code summary:
 
-Line 0.
+*Line 0.*
 *	Initialize screen and variables
 *	Run only once
 
-Line 1.
+*Line 1.*
 *	Show high score at end of previous game
 *	Start new game
 
-Line 2.
+*Line 2.*
 *	Lose life, make death sound
 * Update number of lives in status bar
 *	Set up variables for next round
 
-Line 3.
+*Line 3.*
 * Pause before next round
 *	Draw game box
 
-Line 4.
+*Line 4.*
 *	Update score
 *	Make happy sound
 
-Line 5.
+*Line 5.*
 * Randomly select location of next target
 * Print score in status bar
 
-Line 6.
+*Line 6.*
 *	Get keyboard input
 * 'A' up, 'Z' down, '<' left, '>' right
 
-Line 7.
+*Line 7.*
 * Repeat keyboard input for the appropriate amount of time
 *	Make move sound
 *	Update location index for head
 
-Line 8.
+*Line 8.*
 *	Update location index for tail
 *	Get pixel colour at next location 
 
-Line 9. 
+*Line 9.*
 *	Print head and neck, blank out vacated tail location
 *	Depending on pixel colour GOTO line 2 (yellow/blue/outside box=dead), 4 (red=target), 6 (black=empty cell)
 
@@ -114,6 +114,6 @@ Plus, as a side effect of storing the caterpillar segment locations in memory ad
 
 ## Cheats
 
-* **Infinite lives:** Remove `n=n-1:` at the beginning of line 2  
-* **Longer caterpillar:** Change `r=5` in line 1 to `r=10` or some other value  
-* **Faster game:** Change the inequality in line 7 from `T>U+40-r+10*q` to, say, `T>U+30-r+10*q`
+* *Infinite lives:* Remove `n=n-1:` at the beginning of line 2  
+* *Longer caterpillar:* Change `r=5` in line 1 to `r=10` or some other value  
+* *Faster game:* Change the inequality in line 7 from `T>U+40-r+10*q` to, say, `T>U+30-r+10*q`
