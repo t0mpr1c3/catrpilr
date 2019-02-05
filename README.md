@@ -20,7 +20,7 @@ Download CAT80.zip from the [github repo](https://github.com/t0mpr1c3/catrpilr/r
 
 (Note that *jsbeeb* has a funky keyboard mapping: on my US keyboard I got the double quote by typing `SHIFT-2`.)
 
-Alternatively, copy/paste the BASIC code into the console of the [BeebEm](https://en.wikipedia.org/wiki/BeebEm) and type `RUN`.
+Alternatively, copy/paste the BASIC code into the console of *BeebEm* and type `RUN`.
 
 
 #### Controls:
