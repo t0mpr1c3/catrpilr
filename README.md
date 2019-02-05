@@ -82,6 +82,8 @@ Alternatively, copy/paste the BASIC code into the console of *BeebEm* and type `
 
 ## Variables:
 
+I'm chuffed as a badger that the although the source code is only 807 bytes -- including line numbers and newline characters -- it include so many variables that I went through almost the entire alphabet. (*o* and *l* look too much like numerals, and the variable name *e* has been retired to comemmorate the late [Bob Holness](https://www.youtube.com/watch?v=9A89qtdOsnw).) 
+
 *a.* x location of target / value 18 = VDU code for GCOL   
 *b.* y location of target / value 13 = y-location of status bar  
 *c.* colour variable indicating pixel colour at next location: -1 = outside box, 0 = black, 1 = red, 2 = yellow, 3 = blue  
@@ -110,7 +112,7 @@ Alternatively, copy/paste the BASIC code into the console of *BeebEm* and type `
 *X.* direction of next move: 1=left, -1=right  
 *Y.* direction of next move: 1=up, -1=down 
 
-Plus, as a side effect of storing the caterpillar segment locations in memory addresses starting at &404, the program stomps all over whatever values might have been in the integer variables *A%* through *U%*. (In an earlier version of the code, *x* took the value of &400 rather than &400. I discovered that trashing *@%* caused unpredictable changes in number formatting when printing the score.) 
+Plus, as a side effect of storing the caterpillar segment locations in memory addresses starting at &404, the program stomps all over whatever values might have been in the integer variables *A%* through *U%*. (In an earlier version of the code, *x* took the value of &400 rather than &404. I discovered that trashing *@%* caused unpredictable changes in number formatting when printing the score.) Counting these 21 variables in addition to the 27 listed above, the 10 lines of code arguably employ 48 different variables, equivalent to a new variable every 17 or so characters.
 
 ## Cheats
 
