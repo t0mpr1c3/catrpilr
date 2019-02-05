@@ -101,11 +101,11 @@ Line 9.
 **t.** index of tail position  
 **u.** index of current position of head  
 **v.** index of next position of head  
-**w.** wait duration / value 120 = ASCII `x`  
+**w.** wait duration of 1.2 seconds between lives / value 120 = ASCII `x`  
 **x.** address of vector of x-locations / value 1028 = 10.28 seconds duration of power pill effect 
 **y.** address of vector of y-locations   
-**z.** constant 380 = x/y location of top left corner of box  
-**T.** most recent value of TIME  
+**z.** constant 380 = x/y location of top left corner of box / 3.8 second delay after showing hiscore message  
+**T.** most recent value of TIME (in units of 0.01 second)  
 **U.** value of TIME after last move  
 **X.** direction of next move: 1=left, -1=right  
 **Y.** direction of next move: 1=up, -1=down 
