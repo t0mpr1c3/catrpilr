@@ -120,7 +120,7 @@ Plus, as a side effect of storing the caterpillar segment locations in memory ad
 
 ### Cheats
 
-Personally I am completely useless at gaming and have to modify the codebase to make games enjoyable in any way. This is, by the way, a diagnosed condition for which code improvements are medically indicated. As for the rest of you, I have listed these hacks at the bottom as a pathetic attempt to register my disapproval of those who cheat merely for fun and not as a matter of necessity, by making all of you lousy good-for-nothings read to the very last word.
+Personally I am completely useless at gaming and must refactor the codebase to make games enjoyable in any way. This is, by the way, a diagnosed condition for which code improvements are medically indicated. As for the pathetic losers who cheat merely for fun and not as a matter of necessity, there is little hope for any of you. All I can do to register my disapproval is to list some cheap hacks here at the bottom and make all of you lousy good-for-nothings read to the very last word.
 
 * *Infinite lives:* Remove `n=n-1:` at the beginning of line 2  
 * *Longer caterpillar:* Change `r=5` in line 1 to `r=10` or some other value  
