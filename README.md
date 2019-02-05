@@ -3,7 +3,7 @@ Growing bugs gotta eat.
 
 ## Description
 
-* Simple snake game written for a [javascript BBC micro model B emulator](https://bbc.godbolt.org/?disc=gd%3A1deD2bWvyanVXvO0OnC1Am9Sm3TIEI3Bi%2FCAT80#)
+* Simple snake game written for the javascript BBC micro model B emulator, [jsbeeb](https://bbc.godbolt.org/)
 * Entry for [**2019 BASIC 10 liner contest**](http://gkanold.wixsite.com/homeputerium/kopie-von-basic-10liners-2018) in category **PUR-80**
 
 ## Features
@@ -16,9 +16,9 @@ I don't know what causes some of the the on-screen garbage: it might be somethin
 
 ## How to play
 
-The virtual disk is available through the emulator from Google drive: simply navigate to [this link](https://bbc.godbolt.org/?disc=gd%3A1deD2bWvyanVXvO0OnC1Am9Sm3TIEI3Bi%2FCAT80#) and type `CHAIN "CAT80"`.
+Download CAT80.zip from the [github repo](https://github.com/t0mpr1c3/catrpilr/raw/master/CAT80.zip) and extract the virtual disk `CAT80.ssd`. Upload the file into *jsbeeb*, or an offline emulator such as [BeebEm](https://en.wikipedia.org/wiki/BeebEm), and type `CHAIN "CAT80"`. 
 
-For offline accecss, download CAT80.zip from the [github repo](https://github.com/t0mpr1c3/catrpilr/raw/master/CAT80.zip) and extract the virtual disk `CAT80.ssd`. Upload the file into an emulator such as [BeebEm](https://en.wikipedia.org/wiki/BeebEm).
+(Note that *jsbeeb* has a funky keyboard mapping: on my US keyboard I got the double quote by typing `SHIFT-2`.)
 
 Alternatively, copy/paste the BASIC code into the console of the [BeebEm](https://en.wikipedia.org/wiki/BeebEm) and type `RUN`.
 
