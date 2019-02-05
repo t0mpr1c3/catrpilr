@@ -3,10 +3,11 @@ Growing bugs gotta eat.
 
 ## Description
 
-* Simple snake game written for the javascript BBC micro model B emulator, [jsbeeb](https://bbc.godbolt.org/).
-* Entry for [**2019 BASIC 10 liner contest**](http://gkanold.wixsite.com/homeputerium/kopie-von-basic-10liners-2018) in category **PUR-80**
+* This is a simple snake game written for the javascript BBC micro model B emulator, [jsbeeb](https://bbc.godbolt.org/). I tried to convince my kids that it was a completely original caterpillar game and nothing to do with snakes, but they weren't having any of it.
 
-## Features
+* It was written as an entry for the [**2019 BASIC 10 liner contest**](http://gkanold.wixsite.com/homeputerium/kopie-von-basic-10liners-2018) in category **PUR-80**. The rules state that none of the lines of code should exceed 80 characters: seven of them reach the limit, and the other three have 79. 
+
+### Features
 
 * Fast, playable action!  
 * Bleeps! Flashing lights! High score!  
@@ -14,14 +15,13 @@ Growing bugs gotta eat.
 
 I don't know what causes the on-screen garbage: it might be something to do with how the emulator is implemented.
 
-## How to play
+### How to play
 
 Download CAT80.zip from the [github repo](https://github.com/t0mpr1c3/catrpilr/raw/master/CAT80.zip) and extract the virtual disk `CAT80.ssd`. Upload the file into *jsbeeb*, or an offline emulator such as [BeebEm](https://en.wikipedia.org/wiki/BeebEm), and type `CHAIN "CAT80"`. 
 
 (Note that *jsbeeb* has a funky keyboard mapping: on my US keyboard I got the double quote by typing `SHIFT-2`.)
 
 Alternatively, copy/paste the BASIC code into the console of *BeebEm* and type `RUN`.
-
 
 #### Controls:
 
@@ -36,7 +36,9 @@ Alternatively, copy/paste the BASIC code into the console of *BeebEm* and type `
 * Try not to bite your own tail or crash into the side of the box. That's like, ouch.  
 * Look out for the power pills! For 10 seconds you will move extra quick, and score more points for all the food you eat.
 
-## Code summary:
+### Code summary:
+
+There are lots of abbreviations and little tricks to cram in more functionality, which make the code practically unreadable. Here is a little guide if you have an urge to make sense of it all:
 
 *Line 0.*
 *	Initialize screen and variables
@@ -80,12 +82,12 @@ Alternatively, copy/paste the BASIC code into the console of *BeebEm* and type `
 *	Print head and neck, blank out vacated tail location
 *	Depending on pixel colour GOTO line 2 (yellow/blue/outside box=dead), 4 (red=target), 6 (black=empty cell)
 
-## Variables:
+### Variables:
 
-I'm chuffed as a badger that the although the source code is only 807 bytes - including line numbers and newline characters - it contains so many variables that I went through almost the entire alphabet. (*o* and *l* look too much like numerals, and the variable name *e* has been retired to comemmorate the late [Bob Holness](https://www.youtube.com/watch?v=9A89qtdOsnw).) 
+I'm chuffed as a badger that the although the source code is only 807 bytes - including line numbers and newline characters - it contains so many variables that I went through almost the entire alphabet. (*o* and *l* look too much like numerals, and the variable name *e* has been retired to comemmorate the late [Bob Holness](https://www.youtube.com/watch?v=9A89qtdOsnw).) Even so, several of the variables are re-used to make the code shorter:
 
 *a.* x location of target / value 18 = VDU code for GCOL   
-*b.* y location of target / value 13 = y-location of status bar  
+*b.* y location of target / value 13 = y-location of status bar, thickness of line around box  
 *c.* colour variable indicating pixel colour at next location: -1 = outside box, 0 = black, 1 = red, 2 = yellow, 3 = blue  
 *d.* constant 32 = ASCII space / width of 1 character    
 *f.* temporary flag variable  
@@ -114,7 +116,7 @@ I'm chuffed as a badger that the although the source code is only 807 bytes - in
 
 Plus, as a side effect of storing the caterpillar segment locations in memory addresses starting at &404, the program stomps all over whatever values might have been in the integer variables *A%* through *U%*. (In an earlier version of the code, *x* took the value of &400 rather than &404. I discovered that trashing *@%* caused unpredictable changes in number formatting when printing the score.) Counting these 21 variables in addition to the 27 listed above, the 10 lines of code arguably employ 48 different variables, equivalent to a new variable every 17 or so characters.
 
-## Cheats
+### Cheats
 
 Personally I am completely useless at gaming and have to cheat to make it enjoyable in any way. I have listed these hacks at the bottom to make the rest of you read to the end of the document.
 
