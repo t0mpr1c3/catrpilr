@@ -4,7 +4,7 @@
 3REP.U.TI.>w:V.a;6275;-b;-b;z+b;z+b;6160;4;4;z;z;a;4224;:Q=-x:?x=6:?y=6:IFn=0G.1
 4IFs=1X=0:Y=1:u=0 EL.g=g+5/5^q:r=r-(r<m):F.i=0TO2:SO.0,-8,1A.i,1:N.:IFp q=-1:Q=T
 5p=a=b:REP.:b=a:a=RND(11):U.PO.d*a,384-d*b)=0:V.k,a,b,36-p,k,3,13:C.2:P.g:U=TI.
-6j=1A.u:REP.:i=INKEY-104-INKEY-103:IFi X=i:Y=0EL.i=INKEY-98-INKEY-66:IFi Y=i:X=0
+6j=1A.u:REP.:i=INKEY-104-INKEY-103:IFi X=i:Y=0EL.i=INKEY-67-INKEY-82:IFi Y=i:X=0
 7T=TI.:q=T-Q<x:U.T>U+q+5A.T>U+40-r+10*q:U=T:SO.0,-3,j+1,1:v=(u+1)MODm:x?v=x?u-X
 8C.j+2:V.787;6+j*q;0;k:y?v=y?u-Y:c=PO.d*x?v,384-d*y?v):t=(v-r+m)MODm:f=r=s:w=120
 9V.x?u,y?u,64,17;k,x?t,y?t,-f*d,273;k,x?v,y?v,w-d*j:u=v:s=s+f+1:ONc+2G.2,6,4,2,2
