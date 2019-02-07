@@ -5,7 +5,7 @@ Growing bugs gotta eat.
 
 * This is a simple snake game written for the javascript BBC micro model B emulator, [jsbeeb](https://bbc.godbolt.org/). I tried to convince my kids that it was a completely original caterpillar game and nothing to do with snakes, but they weren't having any of it.
 
-* It was written as an entry for the [**2019 BASIC 10 liner contest**](http://gkanold.wixsite.com/homeputerium/kopie-von-basic-10liners-2018) in category **PUR-80**. The rules state that none of the lines of code should exceed 80 characters: seven of them reach the limit, and the other three have 79.
+* It was written as an entry for the [**2019 BASIC 10 liner contest**](http://gkanold.wixsite.com/homeputerium/kopie-von-basic-10liners-2018) in category **PUR-80**. The rules state that none of the lines of code should exceed 80 characters: several of them reach the limit, and the others are just one or two short.
 
 * This document contains much that is truthy, but as a matter of law I completely disavow any liability for its contents. It may indeed contain one or two rather obvious lies in it notwithstanding the verifiable statement that I can bench press 750 pounds with one arm.
 
@@ -86,7 +86,7 @@ There are lots of abbreviations and little tricks to cram in more functionality,
 
 ### Variables
 
-I'm chuffed as a badger that the although the source code is only 807 bytes - including line numbers and newline characters - it contains so many variables that I went through almost the entire alphabet. (*o* and *l* look too much like numerals, and the variable name *e* has been retired to comemmorate the late [Bob Holness](https://www.youtube.com/watch?v=9A89qtdOsnw).) Even so, several of the variables are re-used to make the code shorter:
+I'm chuffed as a badger that the although the source code is only 805 bytes - including line numbers and newline characters - it contains so many variables that I went through almost the entire alphabet. (*o* and *l* look too much like numerals, and the variable name *e* has been retired to comemmorate the late [Bob Holness](https://www.youtube.com/watch?v=9A89qtdOsnw).) Even so, several of the variables are re-used to make the code shorter:
 
 *a.* x location of target / value 18 = VDU code for GCOL   
 *b.* y location of target / value 13 = y-location of status bar, thickness of line around box  
