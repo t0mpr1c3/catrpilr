@@ -27,8 +27,8 @@ Alternatively, copy/paste the BASIC code into the console of *BeebEm* and type `
 
 #### Controls
 
-  *A* up  
-  *Z* down  
+  *S* up  
+  *X* down  
   *<* left  
   *>* right  
   
@@ -69,7 +69,7 @@ There are lots of abbreviations and little tricks to cram in more functionality,
 
 *Line 6.*
 *	Get keyboard input
-* 'A' up, 'Z' down, '<' left, '>' right
+* 'S' up, 'X' down, '<' left, '>' right
 
 *Line 7.*
 * Repeat keyboard input for the appropriate amount of time
