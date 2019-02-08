@@ -15,7 +15,7 @@ Growing bugs gotta eat.
 * Bleeps! Flashing lights! High score!  
 * _Special bonus screen memory glitches!_
 
-I don't know what causes the on-screen garbage: it might be something to do with how the emulator is implemented.
+I don't know what causes the on-screen garbage: it might be something to do with how the emulator is implemented. You can get rid of it by typing `*TV254` before running the game: this command shifts the screen down a couple of lines.
 
 ### How to play
 
