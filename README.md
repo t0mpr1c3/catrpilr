@@ -86,7 +86,7 @@ There are lots of abbreviations and little tricks to cram in more functionality,
 
 ### Variables
 
-I'm chuffed as a badger that the although the source code is only 805 bytes - including line numbers and newline characters - it contains so many variables that I went through almost the entire alphabet. (*o* and *l* look too much like numerals, and the variable name *e* has been retired to commemorate the late [Bob Holness](https://www.youtube.com/watch?v=9A89qtdOsnw).) Even so, several of the variables are re-used to make the code shorter:
+Although the source code is only 805 bytes - including line numbers and newline characters - it contains so many variables that I went through almost the entire alphabet. (*o* and *l* look too much like numerals, and the variable name *e* has been retired to commemorate the late [Bob Holness](https://www.youtube.com/watch?v=9A89qtdOsnw).) Even so, several of the variables are re-used to make the code shorter:
 
 *a.* x location of target / value 18 = VDU code for GCOL   
 *b.* y location of target / value 13 = y-location of status bar, thickness of line around box  
@@ -116,7 +116,7 @@ I'm chuffed as a badger that the although the source code is only 805 bytes - in
 *X.* direction of next move: 1=left, -1=right  
 *Y.* direction of next move: 1=up, -1=down 
 
-Plus, as a side effect of storing the caterpillar segment locations in memory addresses starting at &404, the program stomps all over whatever values might have been in the integer variables *A%* through *U%*. (In an earlier version of the code, *x* took the value of &400 rather than &404. I discovered that trashing *@%* caused unpredictable changes in number formatting when printing the score.) 
+As a side effect of storing the caterpillar segment locations in memory addresses starting at &404, the program stomps all over whatever values might have been in the integer variables *A%* through *U%*. (In an earlier version of the code, *x* took the value of &400 rather than &404. I discovered that trashing *@%* caused unpredictable changes in number formatting when printing the score.) 
 
 ### "Improvements"
 
