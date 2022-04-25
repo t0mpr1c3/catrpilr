@@ -7,7 +7,7 @@ Growing bugs gotta eat.
 
 * It was written as an entry for the [**2019 BASIC 10 liner contest**](http://gkanold.wixsite.com/homeputerium/kopie-von-basic-10liners-2019) in category **PUR-80**. The rules state that none of the lines of code should exceed 80 characters.
 
-* In a turn of events that I find quite remarkable, the source code and a screenshot were published in a [recent article](https://www.tandfonline.com/doi/full/10.1080/17445760.2019.1597085) by computer archaeologist Stefan Höltgen.
+* In a turn of events that I find quite remarkable, the source code and a screenshot were published in a [2019 article](https://www.tandfonline.com/doi/full/10.1080/17445760.2019.1597085) by computer archaeologist Stefan Höltgen.
 
 ### Features
 
