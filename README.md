@@ -21,7 +21,7 @@ I don't know what causes the on-screen garbage: it might be something to do with
 
 Download CAT80.zip from the [github repo](https://github.com/t0mpr1c3/catrpilr/raw/master/CAT80.zip) and extract the virtual disk `CAT80.ssd`. Upload the file into *jsbeeb*, or an offline emulator such as [BeebEm](https://en.wikipedia.org/wiki/BeebEm), and type `CHAIN "CAT80"`. 
 
-(Note that *jsbeeb* has a funky keyboard mapping: on my US keyboard I got the double quote by typing `SHIFT-2`.)
+(Note that *jsbeeb* has a nonstandard keyboard mapping: on my US keyboard I got the double quote by typing `SHIFT-2`.)
 
 Alternatively, copy/paste the BASIC code into the console of *BeebEm* and type `RUN`.
 
