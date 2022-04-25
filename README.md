@@ -118,9 +118,9 @@ I'm chuffed as a badger that the although the source code is only 805 bytes - in
 
 Plus, as a side effect of storing the caterpillar segment locations in memory addresses starting at &404, the program stomps all over whatever values might have been in the integer variables *A%* through *U%*. (In an earlier version of the code, *x* took the value of &400 rather than &404. I discovered that trashing *@%* caused unpredictable changes in number formatting when printing the score.) 
 
-### Cheats
+### "Improvements"
 
-Personally I am completely useless at gaming and must refactor the codebase to make games enjoyable in any way. This is, by the way, a diagnosed condition for which code improvements are medically indicated. As for the pathetic losers who cheat merely for fun and not as a matter of necessity, there is little hope for any of you. All I can do to register my disapproval is to list some cheap hacks here at the bottom and make all of you lousy good-for-nothings read to the very last word.
+Sometimes I refactor the codebase to individualise certain game parameters. The rest of you are just lousy cheats.
 
 * *Infinite lives:* Remove `n=n-1:` at the beginning of line 2  
 * *Longer caterpillar:* Change `r=5` in line 1 to `r=10` or some other value  
